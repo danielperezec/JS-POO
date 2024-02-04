@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <script>
+        function fibonacci(numeroDeElementos) {
+            let serie = [0, 1];
+            for (let i = 2; i < numeroDeElementos; i++) {
+                serie[i] = serie[i - 1] + serie[i - 2];
+            }
+            console.log(serie.slice(0, numeroDeElementos));
+        }
+
+        // Cambiar este valor para probar con diferentes longitudes
+        let numeroDeElementos = 10;
+        fibonacci(numeroDeElementos);
+    </script>
+</head>
+<body>
+</body>
+</html>
