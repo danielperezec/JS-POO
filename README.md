@@ -1,5 +1,5 @@
 # JS-POO
-Ejercicios JavaScript y POO
+
 Ejercicio 1:
 1. Crear un archivo con el nombre ejercicio1.html
 2. Dentro del archivo colocar las etiquetas <script></ script> y dentro de ellas resolver lo
@@ -16,6 +16,7 @@ la serie 0,1,1 el cuarto elemento 1+1= 2 quedando la serie para numeroDeElemento
 0,1,1,2
 7. El resultado tiene que imprimirse en consola
 8. Al terminar confirma tus cambios (commit) y súbelos a tu repositorio github.
+
 Ejercicio 2:
 El objetivo del ejercicio es ordenar un arreglo que puede contener cualquier tipo de valor y
 devolver el arreglo con solo los números ordenados de mayor a menor.
